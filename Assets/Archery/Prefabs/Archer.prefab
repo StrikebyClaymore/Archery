@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 2194595736530730089}
   - component: {fileID: 2194595736530730094}
   - component: {fileID: 2194595736530730095}
-  m_Layer: 0
+  - component: {fileID: 680520767586035902}
+  m_Layer: 6
   m_Name: Archer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -121,3 +122,41 @@ MonoBehaviour:
   _animationName: 
   loop: 1
   timeScale: 1
+--- !u!114 &680520767586035902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2194595736530730092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00b194b62bc74584d8c06aee71a90ef0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _camera: {fileID: 0}
+  _skeletonAnimation: {fileID: 2194595736530730095}
+  _shootStrengthLine: {fileID: 0}
+  _aimBoneName: gun
+  _armIKName: armRT
+  _arrowBoneName: bullet
+  _idleAnim: idle
+  _targetAnim: attack_target
+  _attackAnim: attack_finish
+  _arrow: {fileID: 0}
+  _trajectoryObjectsParent: {fileID: 0}
+  _trajectoryObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _shootStrengthMultiplier: 2
+  _shootForceMultiplier: 10
